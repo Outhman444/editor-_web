@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(252, 245, 245);
+}
+header{
+    width: auto;
+    background-color:rgb(22, 119, 128) ;
+    box-shadow: 0 0 10px 4px rgb(7, 236, 236);
+    
+}
+header img{
+    width: 140px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+header p{
+
+    color: white;
+    width: 140px;
+    margin-top: 30px;
+    font-weight: bold;
+    float: right;
+   font-family: 'Rakkas', serif;
+   }
+   .input_code{
+    background-color:rgb(137, 135, 135);
+    width: 450px;
+    margin-top: 5px;
+    float: left;
+   }
+   .input_code textarea {
+    resize: vertical;
+    width: 400px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px; /* Add padding */
+    border: 2px solid #ccc; /* Add a border */
+    font-family: 'Arial', sans-serif; /* Specify font family */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: border-color 0.3s ease-in-out; /* Add a transition effect on border color */
+}
+
+
+.input_code textarea:hover {
+    border-color: #007bff;
+}
+.input_code h4 {
+    margin-left: 20px;
+    color:blue; /* Set text color */
+    font-size: 1em; /* Adjust font size */
+
+    font-style: italic; /* Make text italic */
+}
+.editor1 #output {
+   float: right;
+    background-color:rgb(139, 143, 136);
+    width: 780px;
+    height: 550px;
+    margin-top: 5px;
+    margin-right: 7px;
+    
+  
+ 
+}
+
+
